@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Checkout() {
@@ -72,7 +71,7 @@ export default function Checkout() {
                 </div>
 
                 <div className="border-t border-zinc-800 pt-4">
-                  <h4 className="font-medium mb-4">What's included:</h4>
+                  <h4 className="font-medium mb-4">What&apos;s included:</h4>
                   <ul className="space-y-3">
                     {bundleInfo.features.map((feature, index) => (
                       <li key={index} className="flex items-start gap-3 text-sm text-zinc-400">
